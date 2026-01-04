@@ -6,6 +6,9 @@ import Founder from "./Home/Founder";
 import Why from "./Home/Why";
 import Help from "./Home/Help";
 import Build from "./Home/Build";
+import Decisions from "./Home/Decisions";
+import Together from "./Home/Together";
+import Testimony from "./Home/Testimony";
 
 function Home() {
   return (
@@ -17,6 +20,9 @@ function Home() {
       <Why />
       <Help />
       <Build />
+      <Decisions />
+      <Together />
+      <Testimony />
     </>
   );
 }

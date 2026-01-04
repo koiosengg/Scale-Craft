@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import FoodAndBeverage from "./components/FoodAndBeverage";
 import ScrollToTop from "./components/ScrollToTop";
+import Connect from "./components/Home/Connect";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
+      <Connect />
       <Footer />
     </BrowserRouter>
   );
