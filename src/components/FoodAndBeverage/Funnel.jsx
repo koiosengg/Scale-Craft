@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import DesktopImage from "../../assets/FoodAndBeverage/Funnel/Desktop Image.svg";
-
+import MobileImage from "../../assets/FoodAndBeverage/Funnel/Mobile Image.svg";
+import contentLeft from "../../assets/FoodAndBeverage/Funnel/Content Left.svg";
+import contentRight from "../../assets/FoodAndBeverage/Funnel/Content Right.svg";
 import Person1 from "../../assets/FoodAndBeverage/Funnel/Person 1.png";
 import Person2 from "../../assets/FoodAndBeverage/Funnel/Person 2.png";
 import Person3 from "../../assets/FoodAndBeverage/Funnel/Person 3.png";
@@ -82,11 +84,18 @@ function Funnel() {
         </div>
         <h2>Designed to Execute</h2>
       </header>
-
+      <div className="fandb-funnel-content-left">
+        <img src={contentLeft} className="mobile content-left" />
+      </div>
       <div className="fandb-funnel">
         <img
           src={DesktopImage}
-          className="fandb-funnel-img"
+          className="fandb-funnel-img desktop"
+          alt="Funnel Image"
+        />
+        <img
+          src={MobileImage}
+          className="fandb-funnel-img mobile"
           alt="Funnel Image"
         />
 
@@ -111,6 +120,9 @@ function Funnel() {
             className="fandb-funnel-coin"
           />
         ))}
+      </div>
+      <div className="fandb-funnel-content-left">
+        <img src={contentRight} className="mobile content-left" />
       </div>
     </section>
   );

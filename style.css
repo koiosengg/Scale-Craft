@@ -1732,6 +1732,7 @@ html {
 
 .fandb-journey-set h4 {
   color: rgba(33, 33, 33, 0.9);
+  text-align: center;
   font-family: Barlow;
   font-size: 16px;
   font-style: normal;
@@ -2922,8 +2923,268 @@ footer hr {
     line-height: normal;
   }
 
+  /* Food And Beverages */
 
+  .fandb-models {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0px 24px;
+  }
 
+  .fandb-models-set-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px 7.5px 8px 8.5px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 150px;
+    background: #f8f8f8;
+  }
+
+  .fandb-models-set-icon svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+  }
+
+  .fandb-models-set h3 {
+    color: #fff;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .fandb-models-set li {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  .fandb-funnel-content-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fandb-funnel-content-left img {
+    padding: 0px 24px;
+    max-width: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .fandb-funnel {
+    margin: 40px 0px;
+    padding: 0px 20px;
+  }
+
+  .fandb-funnel-person {
+    width: 60px;
+    height: 60px;
+  }
+
+  .fandb-funnel-coin {
+    width: 30px;
+  }
+
+  .fandb-reason-para {
+    color: rgba(33, 33, 33, 0.6);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+
+  .fandb-journey-tabs {
+    gap: 12px;
+    justify-content: space-between;
+  }
+
+  .fandb-journey-tab p {
+    color: rgba(33, 33, 33, 0.6);
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+
+  .fandb-journey-tab-svg {
+    height: auto;
+    width: auto;
+    aspect-ratio: auto;
+    padding: 4px;
+  }
+
+  .fandb-journey-tab svg {
+    width: 8px;
+    height: 11px;
+    aspect-ratio: 8/11;
+  }
+
+  .fandb-journey-container {
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .fandb-journey-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .fandb-journey-set {
+    min-height: auto;
+    align-self: stretch;
+    width: 80%;
+    flex-shrink: 0;
+  }
+
+  .fandb-journey-set:first-child ul li:first-of-type span .line {
+    width: 30%;
+  }
+  .fandb-journey-set:first-child ul li:nth-of-type(2) span .line {
+    width: 35%;
+  }
+  .fandb-journey-set:first-child ul li:last-of-type span .line {
+    width: 20%;
+  }
+
+  .fandb-journey-set:nth-child(2) ul li:first-of-type span .line {
+    width: 70%;
+  }
+  .fandb-journey-set:nth-child(2) ul li:nth-of-type(2) span .line {
+    width: 65%;
+  }
+  .fandb-journey-set:nth-child(2) ul li:last-of-type span .line {
+    width: 50%;
+  }
+
+  .fandb-journey-set:last-child ul li:first-of-type span .line {
+    width: 82%;
+  }
+  .fandb-journey-set:last-child ul li:nth-of-type(2) span .line {
+    width: 85%;
+  }
+  .fandb-journey-set:last-child ul li:last-of-type span .line {
+    width: 90%;
+  }
+
+  .fandb-journey-set .fandb-journey-set-img img:last-child {
+    opacity: 1;
+  }
+
+  .fandb-focus {
+    flex-direction: column;
+  }
+
+  .fandb-focus p {
+    color: rgba(33, 33, 33, 0.6);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+
+  .fandb-user {
+    padding: 0;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .fandb-user ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .fandb-user-set {
+    width: 80%;
+    height: auto;
+    min-height: auto;
+    gap: 24px;
+    flex-shrink: 0;
+  }
+
+  .fandb-user .fandb-user-set:first-child .fandb-user-set-line {
+    display: none;
+  }
+
+  .fandb-user-set-icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    aspect-ratio: 1/1;
+  }
+
+  .fandb-user-set-heading h3 {
+    color: #121212;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
+
+  .fandb-user-set-heading p {
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .fandb-user-set-heading p span {
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .fandb-user-set-text-container p {
+    font-size: 16px;
+  }
+
+  .fandb-user-set-text-container ul li {
+    font-size: 16px;
+  }
+
+  .fandb-services {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+
+  .fandb-services-set.active-fandb-services-set {
+    scale: 1.01;
+  }
+
+  .fandb-services-set p {
+    font-size: 16px;
+  }
   /* Footer */
 
   footer {
