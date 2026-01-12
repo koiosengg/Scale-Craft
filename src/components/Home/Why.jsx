@@ -12,9 +12,9 @@ function Why() {
       <header className="template-heading">
         <div className="template-heading-header">
           <hr />
-          <p>Founder’s Gallery</p>
+          <p>The Trust</p>
         </div>
-        <h2>Meet The Founder</h2>
+        <h2>Why F&B Chooses us</h2>
       </header>
       <div className="home-why-center">
         <hr className="desktop" />

@@ -34,9 +34,9 @@ function Services() {
       <header className="template-heading">
         <div className="template-heading-header">
           <hr />
-          <p>Customer Segments</p>
+          <p>Services we offer</p>
         </div>
-        <h2>Understanding Our User</h2>
+        <h2>Strategic Growth Initiatives</h2>
       </header>
 
       <div className="fandb-services">

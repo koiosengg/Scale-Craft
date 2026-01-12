@@ -14,9 +14,9 @@ function Help() {
       <header className="template-heading">
         <div className="template-heading-header">
           <hr />
-          <p>Founder’s Gallery</p>
+          <p>How we help</p>
         </div>
-        <h2>Meet The Founder</h2>
+        <h2>What Working with us looks like</h2>
       </header>
 
       <div className="home-help">
