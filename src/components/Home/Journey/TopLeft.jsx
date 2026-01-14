@@ -3,26 +3,20 @@ import BottomImage1 from "../../../assets/Home/Journy/Top Left/Bottom Image 1.pn
 import BottomImage2 from "../../../assets/Home/Journy/Top Left/Bottom Image 2.png";
 
 function TopLeft() {
-  const [step, setStep] = useState(null);
+  const [step, setStep] = useState(0);
   const intervalRef = useRef(null);
 
   const totalSteps = 7;
 
-  const startLoop = () => {
-    if (intervalRef.current) return;
-
-    setStep(0);
-
+  useEffect(() => {
     intervalRef.current = setInterval(() => {
       setStep((prev) => (prev + 1) % totalSteps);
     }, 1000);
-  };
-
-  const stopLoop = () => {
-    clearInterval(intervalRef.current);
-    intervalRef.current = null;
-    setStep(null);
-  };
+    return () => {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    };
+  }, []);
 
   const activeSection = step === null ? null : step < 3 ? "top" : "bottom";
 
@@ -31,11 +25,7 @@ function TopLeft() {
   const activeBottom = step !== null && step >= 3 ? step - 3 : -1;
 
   return (
-    <div
-      className="home-journey-top-left"
-      onMouseEnter={startLoop}
-      onMouseLeave={stopLoop}
-    >
+    <div className="home-journey-top-left">
       <div className="home-journey-top-left-container">
         <div className="home-journey-top-left-container-top">
           <div className="home-journey-top-left-container-top-tabs">

@@ -1,6 +1,8 @@
 import React from "react";
 import TopLeft from "./Journey/TopLeft";
 import TopRight from "./Journey/TopRight";
+import BottomLeft from "./Journey/BottomLeft";
+import BottomRight from "./Journey/BottomRight";
 
 function Journey() {
   return (
@@ -15,6 +17,8 @@ function Journey() {
       <div className="home-journey">
         <TopLeft />
         <TopRight />
+        <BottomLeft />
+        <BottomRight/>
       </div>
     </section>
   );

@@ -1,0 +1,92 @@
+import React, { useEffect, useRef, useState } from "react";
+import Logo1 from "../../../assets/Home/Journy/Bottom Left/Logo 1.png";
+import Logo2 from "../../../assets/Home/Journy/Bottom Left/Logo 2.png";
+import Logo3 from "../../../assets/Home/Journy/Bottom Left/Logo 3.png";
+
+const checkIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+  >
+    <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" stroke="#DEE2E6" />
+    <path
+      d="M10.104 15.0356L16.6808 8.24053C16.836 8.08018 17.017 8 17.224 8C17.4309 8 17.612 8.08018 17.7672 8.24053C17.9224 8.40089 18 8.59145 18 8.8122C18 9.03296 17.9224 9.22325 17.7672 9.38307L10.6472 16.7595C10.492 16.9198 10.3109 17 10.104 17C9.89703 17 9.71596 16.9198 9.56075 16.7595L6.22385 13.3118C6.06865 13.1514 5.99415 12.9612 6.00036 12.7409C6.00657 12.5207 6.08753 12.3302 6.24325 12.1693C6.39898 12.0084 6.58341 11.9282 6.79656 11.9287C7.00971 11.9293 7.19388 12.0094 7.34909 12.1693L10.104 15.0356Z"
+      fill="#DEE2E6"
+    />
+  </svg>
+);
+
+function BottomLeft() {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const intervalRef = useRef(null);
+
+  const totalTabs = 3;
+
+  useEffect(() => {
+    intervalRef.current = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % totalTabs);
+    }, 2000);
+
+    return () => {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    };
+  }, []);
+
+  return (
+    <div className="home-journey-bottom-left">
+      <div className="home-journey-bottom-left-container">
+        <div className="home-journey-bottom-left-tabs">
+          <div
+            className={`home-journey-bottom-left-tab ${
+              activeIndex === 0 ? "active-home-journey-bottom-left" : ""
+            }`}
+          >
+            <div className="home-journey-bottom-left-tab-container">
+              <img src={Logo1} alt="New Users Bring Volume" />
+              <p>New Users Bring Volume</p>
+            </div>
+            {checkIcon}
+          </div>
+
+          <div
+            className={`home-journey-bottom-left-tab ${
+              activeIndex === 1 ? "active-home-journey-bottom-left" : ""
+            }`}
+          >
+            <div className="home-journey-bottom-left-tab-container">
+              <img src={Logo2} alt="Repeat Users Bring Profit" />
+              <p>Repeat Users Bring Profit</p>
+            </div>
+            {checkIcon}
+          </div>
+
+          <div
+            className={`home-journey-bottom-left-tab ${
+              activeIndex === 2 ? "active-home-journey-bottom-left" : ""
+            }`}
+          >
+            <div className="home-journey-bottom-left-tab-container">
+              <img src={Logo3} alt="Dormant Users Bring Efficiency" />
+              <p>Dormant Users Bring Efficiency</p>
+            </div>
+            {checkIcon}
+          </div>
+        </div>
+      </div>
+
+      <div className="home-journey-set">
+        <h3>Founder Level Take away</h3>
+        <p>
+          We help food brands diagnose repeat drop-offs, build repeat-first
+          growth models, and design repeat behavior across kitchens and apps.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default BottomLeft;
