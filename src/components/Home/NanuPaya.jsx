@@ -4,7 +4,7 @@ import Image from "../../assets/Home/Nanu Paya/Image.svg";
 function NanuPaya() {
   return (
     <section className="nanu-paya">
-        <span>TESTIMONIAL</span>
+      <span>TESTIMONIAL</span>
       <div className="nanu-paya-img">
         <img src={Image} alt="Nanu Paya" />
       </div>
@@ -26,12 +26,13 @@ function NanuPaya() {
             Mariam brings a rare combination of sharp strategic thinking and
             practical execution. She wont just give high-level advice, she
             deeply understands the business, identifies real growth levers, and
-            helps put clear, actionable systems in place. Her approach to
-            strategic growth is structured, data-driven, and tailored, which
-            helped us gain clarity, improve decision-making, and build a roadmap
-            for sustainable scale.
+            helps put clear, actionable systems in place.
+            <br />
+            Her approach to strategic growth is structured, data-driven, and
+            tailored, which helped us gain clarity, improve decision-making, and
+            build a roadmap for sustainable scale.
           </p>
-          <h2>Nanu Paya</h2>
+          <h2><strong>Tony Francis Thottunkal</strong> Nanu Paya</h2>
         </div>
       </div>
     </section>
