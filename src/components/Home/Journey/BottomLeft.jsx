@@ -81,8 +81,8 @@ function BottomLeft() {
       <div className="home-journey-set">
         <h3>Founder Level Take away</h3>
         <p>
-          We help food brands diagnose repeat drop-offs, build repeat-first
-          growth models, and design repeat behavior across kitchens and apps.
+          Brands don’t fail because they lack new users. They Fail because of
+          repeat drops and dormancy rises unnoticed.
         </p>
       </div>
     </div>

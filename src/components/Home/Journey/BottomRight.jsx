@@ -64,10 +64,12 @@ function BottomRight() {
         <div className="home-journey-bottom-right-container-bottom"></div>
       </div>
       <div className="home-journey-set">
-        <h3>Founder Level Take away</h3>
+        <h3>Platform Mastery</h3>
         <p>
-          We help food brands diagnose repeat drop-offs, build repeat-first
-          growth models, and design repeat behavior across kitchens and apps.
+          Honed executive leadership and full-scale brand strategy. Established
+          reputation in F&B marketing innovation, system led growth, and purpose
+          driven branding.10 years with Swiggy and Zomato. Negotiated 2-3%
+          commission reductions, boosting net revenue by 8-10% per order.
         </p>
       </div>
     </div>

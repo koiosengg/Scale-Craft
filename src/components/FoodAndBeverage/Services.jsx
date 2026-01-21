@@ -107,9 +107,9 @@ function Services() {
               <h3>Strategic Pricing</h3>
             </header>
             <p>
-              We collaborate with channel partners on strategic campaigns and
-              co-branded initiatives that enhance visibility and drive sales
-              through platform synergy
+              Data-driven pricing strategies balance competitiveness and
+              profitability. We identify optimal price points ensuring sustained
+              margins and enhanced conversion
             </p>
           </article>
 
@@ -142,9 +142,9 @@ function Services() {
               <h3>Analyze & Optimize</h3>
             </header>
             <p>
-              We collaborate with channel partners on strategic campaigns and
-              co-branded initiatives that enhance visibility and drive sales
-              through platform synergy
+              We measure campaign effectiveness, optimize ad investments, and
+              track ROI progression. Our framework maximizes visibility and
+              sustains data-driven growth.
             </p>
           </article>
         </div>

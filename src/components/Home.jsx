@@ -22,7 +22,7 @@ function Home() {
       <Founder />
       <Why />
       <Help />
-      <NanuPaya />
+      {/* <NanuPaya /> */}
       <Build />
       <Decisions />
       <Together />
