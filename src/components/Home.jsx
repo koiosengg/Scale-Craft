@@ -22,7 +22,7 @@ function Home() {
       <Journey />
       <Founder />
       <Why />
-      <Clients />
+      {/* <Clients /> */}
       <Help />
       {/* <NanuPaya /> */}
       <Build />

@@ -25,7 +25,7 @@ function FoodAndBeverage() {
       <User />
       <Services />
       <Industry />
-      <Clients />
+      {/* <Clients /> */}
       <Together />
     </>
   );
