@@ -1,6 +1,6 @@
 import React from "react";
 import Founder from "../../assets/Home/About/Founder.svg";
-import Sample from "../../assets/Home/About/Founder Video.mov";
+import Sample from "../../assets/Home/About/Founder Video.mp4";
 import Recognition from "../../assets/Home/About/Recognition.svg";
 import Experience from "../../assets/Home/About/Experience.svg";
 import Results from "../../assets/Home/About/Results.svg";
