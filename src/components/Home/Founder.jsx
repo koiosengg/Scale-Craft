@@ -2,7 +2,7 @@ import React from "react";
 import Image1 from "../../assets/Home/Founder/Image 1.png";
 import Image2 from "../../assets/Home/Founder/Image 2.png";
 import Image3 from "../../assets/Home/Founder/Image 3.png";
-import Sample from "../../assets/Home/Founder/Founder Video.MOV";
+import Sample from "../../assets/Home/Founder/Founder Video.mp4";
 
 function Founder() {
   return (
