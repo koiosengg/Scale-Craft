@@ -28,7 +28,7 @@ function Footer() {
           </a>
           <a
             href="https://www.instagram.com/scale_craft_solutions"
-            target="_balnk"
+            target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,10 @@ function Footer() {
               />
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/mariam-bhol-bracketwal">
+          <a
+            href="https://www.linkedin.com/company/scalecraftsolutions/"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
