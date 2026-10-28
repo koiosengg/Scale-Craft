@@ -1,9 +1,10 @@
 import React from "react";
 import DesktopBackground from "../../assets/Home/Clients/Desktop Background.png";
-import NanuPaya from "../../assets/Home/Clients/Nanu Paya.jpg";
-import DiwanRaj from "../../assets/Home/Clients/Diwan Raj.jpg";
-import Client1 from "../../assets/Home/Clients/Client 1.jpg";
-import Prisca from "../../assets/Home/Clients/Prisca.png";
+import MumbaiCafe from "../../assets/Home/Clients/Mumbai Cafe.png";
+import BagaraBiryani from "../../assets/Home/Clients/Bagara Biryani.png";
+import TFG from "../../assets/Home/Clients/TFG.png";
+import BakeryDelightt from "../../assets/Home/Clients/Bakery Delightt.png";
+import KhmerKitchen from "../../assets/Home/Clients/Khmer Kitchen.png";
 
 function Clients() {
   return (
@@ -21,10 +22,11 @@ function Clients() {
         <h2>Trusted By</h2>
       </header>
       <div className="clients-container">
-        <img src={NanuPaya} alt="Nanu Paya" />
-        <img src={DiwanRaj} alt="Diwan Raj" />
-        <img src={Client1} alt="Client 1" />
-        <img src={Prisca} alt="Prisca" />
+        <img src={MumbaiCafe} alt="Mumbai Cafe" />
+        <img src={BagaraBiryani} alt="Bagara Biryani" />
+        <img src={TFG} alt="TFG" />
+        <img src={BakeryDelightt} alt="Bakery Delightt" />
+        <img src={KhmerKitchen} alt="Khmer Kitchen" />
       </div>
     </section>
   );

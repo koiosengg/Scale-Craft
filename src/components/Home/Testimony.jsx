@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import video1 from "../../assets/Home/Testimony/1.mp4";
 import video2 from "../../assets/Home/Testimony/2.mp4";
 import video3 from "../../assets/Home/Testimony/3.mp4";
+import video4 from "../../assets/Home/Testimony/4.mp4";
 
 const reels = [
   {
@@ -21,6 +22,12 @@ const reels = [
     brand: "Tgf bakehousee",
     location: "Delhi, India",
     handle: "@tfg.bakehousee",
+  },
+  {
+    video: video4,
+    brand: "Khmer Kitchen",
+    location: "Bengaluru, India",
+    handle: "@khmerkitchen.in",
   },
 ];
 
@@ -97,6 +104,7 @@ function ReelCard({ reel, isActive, onClick }) {
       {/* Bottom info */}
       <div className="reel-info">
         <div className="reel-brand">{reel.brand}</div>
+        <div className="reel-handle">{reel.handle}</div>
         <div className="reel-location">
           <svg
             viewBox="0 0 24 24"

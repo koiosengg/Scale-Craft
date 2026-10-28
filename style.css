@@ -1846,7 +1846,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 60px;
+  padding: 80px 160px;
   gap: 48px;
   background: #f8f8f8;
   overflow: hidden;
@@ -1973,6 +1973,15 @@ html {
   line-height: 1.2;
 }
 
+.reel-handle {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Barlow, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+}
+
 .reel-location {
   display: flex;
   align-items: center;
@@ -1986,6 +1995,10 @@ html {
 /* inactive cards shrink info text */
 .reel-card:not(.reel-card--active) .reel-brand {
   font-size: 12px;
+}
+
+.reel-card:not(.reel-card--active) .reel-handle {
+  font-size: 10px;
 }
 
 .reel-card:not(.reel-card--active) .reel-location {
@@ -3793,7 +3806,7 @@ footer hr {
   }
 
   .clients-container img {
-    width: calc((100% / 4) - 12px);
+    width: calc((100% / 5) - 12px);
     flex: 1 1 0;
     max-width: 100%;
     height: auto;
@@ -4088,11 +4101,11 @@ footer hr {
   /* ─── Reels responsive ─────────────────────────────────── */
   .home-reels-section {
     padding: 48px 20px;
-    gap: 48px;
+    gap: 32px;
   }
 
   .home-reels-track {
-    gap: 16px;
+    gap: 48px;
     width: 100%;
     min-height: 400px;
   }
@@ -4111,6 +4124,10 @@ footer hr {
 
   .reel-brand {
     font-size: 14px;
+  }
+
+  .reel-handle {
+    font-size: 11px;
   }
 
   .reel-location {
@@ -4536,6 +4553,10 @@ footer hr {
 
   .reel-brand {
     font-size: 18px;
+  }
+
+  .reel-handle {
+    font-size: 13px;
   }
 
   .reel-location {
