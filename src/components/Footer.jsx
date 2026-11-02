@@ -10,6 +10,7 @@ function Footer() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/F&B">F&B</Link>
+          <Link to="/privacy-policy">Privacy Policy</Link>
         </nav>
         <div className="footer-socials">
           <a href="https://wa.me/917400219151" target="_blank">

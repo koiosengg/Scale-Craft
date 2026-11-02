@@ -215,7 +215,7 @@ html {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 8px;
   align-self: stretch;
 }
@@ -3158,6 +3158,112 @@ html {
   object-fit: cover;
 }
 
+/* Privacy Policy */
+
+.privacy-policy {
+  width: 100%;
+  display: flex;
+  padding: 80px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.privacy-policy-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 1120px;
+}
+
+.privacy-policy-updated {
+  color: rgba(17, 17, 17, 0.5);
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.privacy-policy-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.privacy-policy-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.privacy-policy-section h3 {
+  color: #111;
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.privacy-policy-section p {
+  color: rgba(17, 17, 17, 0.8);
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.privacy-policy-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 24px;
+}
+
+.privacy-policy-section ul li {
+  color: rgba(17, 17, 17, 0.8);
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.privacy-policy-section ul li strong {
+  color: #111;
+  font-weight: 600;
+}
+
+.privacy-policy-section a {
+  color: #c41e3a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.privacy-policy-section a:hover {
+  text-decoration: underline;
+}
+
+.privacy-policy-contact {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.privacy-policy-contact li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /* Footer */
 
 footer {
@@ -4502,6 +4608,136 @@ footer hr {
   .fandb-services-set p {
     font-size: 16px;
   }
+  /* Privacy Policy Mobile */
+
+  .privacy-policy-content {
+    gap: 32px;
+  }
+
+  .privacy-policy-section h3 {
+    font-size: 20px;
+  }
+
+  .privacy-policy-section p {
+    font-size: 15px;
+    line-height: 160%;
+  }
+
+  .privacy-policy-section ul li {
+    font-size: 15px;
+    line-height: 160%;
+  }
+
+  .privacy-policy-contact li {
+    flex-wrap: wrap;
+  }
+
+  /* Privacy Policy */
+
+  .privacy-policy {
+    width: 100%;
+    display: flex;
+    padding: 48px 20px;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .privacy-policy-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 1120px;
+  }
+
+  .privacy-policy-updated {
+    color: rgba(17, 17, 17, 0.5);
+    font-family: Barlow;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .privacy-policy-content {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .privacy-policy-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .privacy-policy-section h3 {
+    color: #111;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
+
+  .privacy-policy-section p {
+    color: rgba(17, 17, 17, 0.8);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+  }
+
+  .privacy-policy-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 24px;
+  }
+
+  .privacy-policy-section ul li {
+    color: rgba(17, 17, 17, 0.8);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+  }
+
+  .privacy-policy-section ul li strong {
+    color: #111;
+    font-weight: 600;
+  }
+
+  .privacy-policy-section a {
+    color: #c41e3a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+
+  .privacy-policy-section a:hover {
+    text-decoration: underline;
+  }
+
+  .privacy-policy-contact {
+    list-style: none;
+    padding-left: 0 !important;
+  }
+
+  .privacy-policy-contact li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
   /* Footer */
 
   footer {

@@ -66,6 +66,9 @@ function Navbar() {
             <Link to="/F&B" onClick={handleLinkClick}>
               Food & Beverage
             </Link>
+            <Link to="/privacy-policy" onClick={handleLinkClick}>
+              Privacy Policy
+            </Link>
           </div>
           <div className="mobileNavbar-bottom">
             <a
