@@ -21,6 +21,7 @@ function Home() {
       <About />
       <Journey />
       <Founder />
+      <Testimony />
       <Why />
       <Clients />
       <Help />
@@ -28,7 +29,6 @@ function Home() {
       <Build />
       <Decisions />
       <Together />
-      <Testimony />
     </>
   );
 }
