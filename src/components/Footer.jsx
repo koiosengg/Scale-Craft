@@ -97,7 +97,7 @@ function Footer() {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p>© Copyright 2025, All Rights Reserved</p>
+        <p>© Copyright 2026, All Rights Reserved</p>
         <p>
           Crafted by{" "}
           <a href="https://www.koiostudio.com/" target="_blank">

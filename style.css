@@ -1257,7 +1257,7 @@ html {
 }
 
 .template.clients {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 80px;
@@ -3920,16 +3920,17 @@ footer hr {
 
   .clients-container {
     width: 100%;
-    gap: 16px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .clients-container img {
-    width: calc((100% / 5) - 12px);
-    flex: 1 1 0;
-    max-width: 100%;
+    width: clamp(65px, 15vw, 110px);
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    flex: 0 0 auto;
   }
 
   .home-help {
