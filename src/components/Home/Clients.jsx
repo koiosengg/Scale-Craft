@@ -24,13 +24,13 @@ function Clients() {
         <h2>Trusted By</h2>
       </header>
       <div className="clients-container">
+        <img src={Tibbs} alt="Tibb's Frankie" />
         <img src={MumbaiCafe} alt="Mumbai Cafe" />
         <img src={BagaraBiryani} alt="Bagara Biryani" />
         <img src={TFG} alt="TFG" />
         <img src={BakeryDelightt} alt="Bakery Delightt" />
         <img src={KhmerKitchen} alt="Khmer Kitchen" />
         <img src={SeventhHeaven} alt="7th Heaven" />
-        <img src={Tibbs} alt="Tibb's Frankie" />
       </div>
     </section>
   );
